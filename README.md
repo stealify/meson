@@ -2,7 +2,8 @@
 <img src="https://mesonbuild.com/assets/images/meson_logo.png">
 </p>
 Meson® is a project to create the best possible next-generation
-build system.
+build system. And Stealify does use it as good example to adopt 
+but we drop python and replace it with Stealify Lang.
 
 #### Status
 
@@ -13,11 +14,16 @@ build system.
 [![Total Alerts](https://img.shields.io/lgtm/alerts/g/mesonbuild/meson.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mesonbuild/meson/alerts)
 
 #### Dependencies
-
+ - [Deno](https://denoland.org) (Current or Take NodeJS)
+ - [NodeJS](https://nodejs.org) (Current or Take Deno)
  - [Python](https://python.org) (version 3.7 or newer)
  - [Ninja](https://ninja-build.org) (version 1.8.2 or newer)
 
 #### Installing from source
+@stealify/meson is available on github you are in fact in the repo if your Reading this.
+```
+npm i https://github.com/stealify/meson/4.0/package.json
+```
 
 Meson is available on [PyPi](https://pypi.python.org/pypi/meson), so
 it can be installed with `pip3 install meson`.  The exact command to
